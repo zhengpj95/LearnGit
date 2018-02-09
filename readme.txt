@@ -6,5 +6,4 @@ Git is difference, compare to git diff.
 My stupid lover.
 My Lover -- Git.
 Creating a new branch is quick & simple.
-
-
+Branch management strategy.
