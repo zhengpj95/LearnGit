@@ -5,5 +5,5 @@ Git tracks changes of files.
 Git is difference, compare to git diff.
 My stupid lover.
 My Lover -- Git.
-Creating a new branch is quick AND simple.
+Creating a new branch is quick & simple.
 
