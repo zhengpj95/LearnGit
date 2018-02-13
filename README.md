@@ -1,3 +1,7 @@
-Learn git.
+# Learn git.
 
-Creating a new branch is quick.
+<p>学习Git</p>
+
+<p>学习Git与GitHub的配置</p>
+
+<p>学习在Git下，编程，并保存到远程仓库GitHub中</p>
