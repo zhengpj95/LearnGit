@@ -1,12 +1,12 @@
 # Learn git.
 
-<p>学习Git</p>
+学习Git
 
-<p>学习Git与GitHub的配置</p>
+学习Git与GitHub的配置
 
-<p>学习在Git下，编程，并保存到远程仓库GitHub中</p>
+学习在Git下，编程，并保存到远程仓库GitHub中
 
-<p>Try your best.</p>
+**Try my best.**
 
 ## 常用命令
 
