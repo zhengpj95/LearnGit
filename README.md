@@ -31,5 +31,6 @@
 - git branch newBranchName  //新建分支
 - git branch -D branchName || git branch --delete branchName  //删除本地分支
 - git push origin --delete branchName  //删除远程分支名
+- git switch branchName //切换分支
 - git stash
 - git stash list
