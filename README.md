@@ -1,4 +1,4 @@
-# Learn git.
+# Learn git
 
 学习Git
 
