@@ -27,8 +27,9 @@
 - git diff --cached
 - git diff HEAD^
 - git remote add origin url
-- git branch
+- git branch   //显示全部分支
+- git branch newBranchName  //新建分支
+- git branch -D branchName || git branch --delete branchName  //删除本地分支
+- git push origin --delete branchName  //删除远程分支名
 - git stash
 - git stash list
-
-
