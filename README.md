@@ -34,3 +34,19 @@
 - git switch branchName //切换分支
 - git stash
 - git stash list
+
+### remote
+
+git remote -v
+
+git remote remove origin
+
+git remote add origin master [url]
+
+```shell
+git remote add github github-url
+git remote add gitee gitee-url
+
+git push github master
+git push gitee master
+```
