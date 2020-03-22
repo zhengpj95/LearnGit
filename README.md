@@ -43,6 +43,9 @@ git remote remove origin
 
 git remote add origin master [url]
 
+设置默认的push远程仓库(origin: 原创仓库本地名称，master：远程仓库分支名)
+git push --set-upstream origin master
+
 ```shell
 git remote add github github-url
 git remote add gitee gitee-url
