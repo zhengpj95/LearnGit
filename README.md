@@ -53,3 +53,11 @@ git remote add gitee gitee-url
 git push github master
 git push gitee master
 ```
+
+### 自定义命令简称
+
+```shell
+git config --global alias.st status
+git config --global alias.ci commit
+git config --global alias.cm '!f() { git add -A && git commit -m "$@"; }; f'
+```
