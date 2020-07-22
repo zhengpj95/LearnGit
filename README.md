@@ -67,5 +67,8 @@ git config --global alias.ac '!f() { git add -A "$@" && git commit -m "$@"; }; f
 
 ```shell
 # 删除全局配置
+# 终端执行命令：
 git config --global --unset user.name
+# 编辑配置文件：.gitconfig
+git config --global --edit
 ```
