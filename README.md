@@ -60,15 +60,20 @@ git push gitee master
 git config --global alias.st status
 git config --global alias.ci commit
 git config --global alias.cm '!f() { git add -A && git commit -m "$@"; }; f'
-git config --global alias.ac '!f() { git add -A "$@" && git commit -m "$@"; }; f'
 ```
 
 ### 操作全局配置
 
 ```shell
+# 查看所有全局配置
+git config --global --list
+
+# 查看所有配置
+git config --list
+
 # 删除全局配置
-# 终端执行命令：
+## 终端执行命令：
 git config --global --unset user.name
-# 编辑配置文件：.gitconfig
+## 编辑配置文件：.gitconfig
 git config --global --edit
 ```
