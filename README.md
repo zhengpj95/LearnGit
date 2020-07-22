@@ -80,3 +80,22 @@ git config --global --unset user.name
 ## 编辑配置文件：.gitconfig
 git config --global --edit
 ```
+
+### 修改 commit 提交备注
+
+```shell
+git commit --amend
+# 会进入vim编辑器，修改成功后保存退出即可
+```
+
+### commit 后想撤销
+
+```shell
+git reset --mixed/soft/hard head~n/commitID
+
+# head~n 对应上n个版本 回退到上一个版本head~1, head~2
+# comminID 使用 git log 或者 git reflog 查看commitID，输入对应版本的id即可
+# --mixed 默认参数，不删除工作空间改动代码，撤销commit，并且撤销git add
+# --soft 不删除工作空间改动代码，撤销commit，不撤销git add
+# --hard 删除工作空间改动代码，撤销commit，撤销git add
+```
