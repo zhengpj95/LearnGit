@@ -21,8 +21,11 @@
 - git commit -am 'description'
 - git rm xxx
 - git mv name1 name2
-- git log
-- git log -n
+- git log   //不显示已经删除的
+- git log -n  //查看n条
+- git log --pretty=oneline // 只显示版本号和备注信息
+- git reflog  //可以查看已经删除的记录
+- git reflog -n //查看n条
 - git diff
 - git diff --cached
 - git diff HEAD^
