@@ -1,3 +1,6 @@
 testbranch 分支上新增文件
 惺惺惜惺惺
 学习学习学习
+
+git push --set-upstream origin testbranch
+git push --set-upstream gitee testbranch
