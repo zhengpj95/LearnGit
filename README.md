@@ -108,3 +108,13 @@ git reset --mixed/soft/hard head~n/commitID
 # 源origin, 分支master
 git push origin master --force
 ```
+
+## 让单个文件回退到指定版本
+
+```shell
+1. 查看单文件提交记录   git log filename
+2. 退回到指定版本  git rest --hard/soft/mixed  版本id filename
+3. 提交到本地仓库
+4. 更新到工作目录  git checkout filename
+5. 提交到远程仓库
+```
