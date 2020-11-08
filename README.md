@@ -99,3 +99,7 @@ git reset --mixed/soft/hard head~n/commitID
 # --soft 不删除工作空间改动代码，撤销commit，不撤销git add
 # --hard 删除工作空间改动代码，撤销commit，撤销git add
 ```
+
+### 改变 remote 地址
+
+> git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
