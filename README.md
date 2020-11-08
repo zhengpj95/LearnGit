@@ -35,6 +35,7 @@
 - git branch -D branchName || git branch --delete branchName  //删除本地分支
 - git push origin --delete branchName  //删除远程分支名
 - git switch branchName //切换分支
+- git checkout branchName //切换分支
 - git stash
 - git stash list
 
@@ -98,6 +99,24 @@ git reset --mixed/soft/hard head~n/commitID
 # --mixed 默认参数，不删除工作空间改动代码，撤销commit，并且撤销git add
 # --soft 不删除工作空间改动代码，撤销commit，不撤销git add
 # --hard 删除工作空间改动代码，撤销commit，撤销git add
+```
+
+### push 后想撤销
+
+```shell
+# 想在本地撤销回想要的版本，然后commit，再操作push
+# 源origin, 分支master
+git push origin master --force
+```
+
+## 让单个文件回退到指定版本
+
+```shell
+1. 查看单文件提交记录   git log filename
+2. 退回到指定版本  git rest --hard/soft/mixed  版本id filename
+3. 提交到本地仓库
+4. 更新到工作目录  git checkout filename
+5. 提交到远程仓库
 ```
 
 ### 改变 remote 地址
