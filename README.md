@@ -4,7 +4,7 @@
 
 学习Git与GitHub的配置
 
-学习在Git下，编程，并保存到远程仓库GitHub中
+学习在Git下编程并保存到远程仓库GitHub中
 
 **Try my best.**
 
@@ -122,3 +122,13 @@ git push origin master --force
 ### 改变 remote 地址
 
 > git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+
+### fork他人仓库后，与原仓库的同步
+
+fork别人仓库后，github是不会主动帮助我们去同步原仓库与我们fork仓库的。
+
+要保持同步就要我们自己主动同步，同步的主要思路是：
+
+- 把我们fork后的仓库clone到本地，在本地的仓库中添加原仓库作为上游upstream，git remote add upstream [原仓库url]
+- 把原仓库的最新内容fetch下来，git fetch upstream
+- 然后我们就可以把这更新的内容push到我们fork的仓库了
