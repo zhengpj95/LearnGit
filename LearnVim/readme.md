@@ -1,7 +1,7 @@
 # Learn Vim
 
-<p>学习Vim</p>
+学习Vim
 
-<p>学习Vim常用的命令</p>
+学习Vim常用的命令
 
-<p>学习在Vim下进行编程</p>
+学习在Vim下进行编程
