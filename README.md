@@ -64,6 +64,8 @@ git push gitee master
 git config --global alias.st status
 git config --global alias.ci commit
 git config --global alias.cm '!f() { git add -A && git commit -m "$@"; }; f'
+git config --global alias.logp '!f() { git log --pretty=oneline -"$@"; }; f'
+git config --global alias.reflogp '!f() { git reflog --pretty=oneline -"$@"; }; f'
 ```
 
 ### 操作全局配置
