@@ -134,3 +134,23 @@ fork别人仓库后，github是不会主动帮助我们去同步原仓库与我�
 - 把我们fork后的仓库clone到本地，在本地的仓库中添加原仓库作为上游upstream，git remote add upstream [原仓库url]
 - 把原仓库的最新内容fetch下来，git fetch upstream
 - 然后我们就可以把这更新的内容push到我们fork的仓库了
+
+### 创建空白分支
+
+1. 本地创建空白分支
+2. 移除新分支的所有文件
+3. 推送到远程仓库
+
+```bash
+git checkout --orphan newbranch
+# 该分支会包含主分支的所有文件，但是新的分支是不会指向以前的任何提交的，也就是新分支是没有历史的
+
+# 想要空白分支，用git命令删除当前分支的全部内容即可
+git rm -rf . # 注意有个 .
+
+# 新建文件，提交到分支。注意没有文件的话，分支是显示不出来的
+# 使用 git branch 是看不到当前新建分支的
+
+# push 到远程仓库
+git push origin newbranch
+```
