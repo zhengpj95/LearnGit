@@ -84,6 +84,17 @@ git config --global --unset user.name
 git config --global --edit
 ```
 
+### 忽略已经提交过的文件
+
+```shell
+把要忽略的文件添加到 .gitignore 中
+
+使用 git rm filename --cached 清空git缓存文件filename
+
+重新提交即可
+
+```
+
 ### 修改 commit 提交备注
 
 ```shell
