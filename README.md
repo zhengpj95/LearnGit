@@ -38,6 +38,8 @@
 - git checkout branchName //切换分支
 - git stash
 - git stash list
+- git mv -f oldFolder newFolder // 修改文件夹名称
+- git add -u newFolder // -u 会更新已经追踪的文件夹和文件（在上一步修改文件夹名称后）
 
 ### remote
 
